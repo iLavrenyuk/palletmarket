@@ -1,0 +1,40 @@
+.first-block {
+  position: relative;
+  height: 780px;
+  font-size: 1rem;
+  color: $font-light;
+  background-image: url(../../img/pallet-collage-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .bg-filter {
+    height: 100%;
+    // background: linear-gradient(90deg, rgba(255, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%);
+    background: linear-gradient(90deg, rgba(251, 215, 43, 0.8) 0%, rgba(251, 176, 52, 0.8) 100%);
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .title {
+      margin-top: 257px;
+      font-weight: bold;
+      font-size: 9rem;
+      line-height: 10.75rem;
+      align-items: center;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    .sub-title {
+      margin: 39px 0;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 150%;
+      text-align: center;
+      max-width: 540px;
+    }
+  }
+}

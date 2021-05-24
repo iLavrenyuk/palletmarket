@@ -1,0 +1,20 @@
+.button {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: $primary;
+  padding: 17px 53px;
+  background: $font-light;
+  border: 2px solid $font-light;
+  border-radius: 6px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: transparent;
+    color: $font-light;
+    font-weight: 700;
+  }
+}
